@@ -1,7 +1,45 @@
-/*........... influncer.......... */
-.dslr{
-    display: flex;
+/* .......font-size...........*/
+h1{
+    font-family: 'Poppins', sans-serif;
 }
+h4{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/*........... influncer.......... */
 .half-width{
+    display: flex;
+    margin-right: 5px
+}
+.container{
     
+}
+/* ........link option...... */
+.link-button{
+    background-color:#E02C6D;
+    border-radius: 41px;
+    font-size: 16px;
+    width: 196px;
+    height: 56px;
+    top: 51px;
+    left: 179px;
+    radius: 41px;
+    Padding: 10px, 24px, 10px, 24px;
+    color:#FFFFFF;
+}
+.fas fa-arrow-right{
+    width: 16px;
+    height: 14px;
+    padding-right: 20px;
+}
+/*...... popular collection......... */
+footer{
+    text-align: center;
+    background-color: #AAAAAA;
+}
+footer>.c-right{
+    width: 10px;
+    height: 6px
 }
