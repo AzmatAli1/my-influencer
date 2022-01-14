@@ -35,7 +35,18 @@ h4{
     padding-right: 20px;
 }
 /*...... popular collection......... */
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+
+
+/* ...........footer icon........... */
 footer{
+    color: white;
     text-align: center;
     background-color: #AAAAAA;
 }
