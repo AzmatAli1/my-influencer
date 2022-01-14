@@ -35,9 +35,12 @@ h4{
     padding-right: 20px;
 }
 /*...... popular collection......... */
-.container{
+ .container{
+    color: orange;
+ }
+.pic-container{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3 , 1fr);
 }
 
 
@@ -49,8 +52,6 @@ footer{
     color: white;
     text-align: center;
     background-color: #AAAAAA;
+
 }
-footer>.c-right{
-    width: 10px;
-    height: 6px
-}
+
