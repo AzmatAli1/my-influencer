@@ -1,4 +1,6 @@
 /* .......font-size...........*/
+   
+}
 h1{
     font-family: 'Poppins', sans-serif;
 }
@@ -9,13 +11,19 @@ h4{
 
 
 /*........... influncer.......... */
+.influencer{
+    margin-right: 20x;
+    margin-top: 50px;
+    margin-left: 20px;
+}
 .half-width{
     display: flex;
-    margin-right: 5px
+    margin-left: 40px;
+    margin-top:0;
+    margin-bottom: 100px;
+     
 }
-.container{
-    
-}
+
 /* ........link option...... */
 .link-button{
     background-color:#E02C6D;
@@ -33,6 +41,13 @@ h4{
     width: 16px;
     height: 14px;
     padding-right: 20px;
+}
+/* .........logo collectio........... */
+.logo{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 /*...... popular collection......... */
  .popular{
@@ -55,46 +70,44 @@ h4{
     margin-left: 75px%;
     
 }
-
+/* ........contiainer.......... */
 .container-1{
-    box-shadow: whitesmoke;
-    margin-left: 30px;
+box-shadow: inset 0 -3em 3em rgb(255 255 255), 0 0 0 2px rgb(245 242 242), 0.3em 0.3em 1em rgb(135 131 131 / 30%);
+margin-left: 30px;
     margin-right: 10px;
 }
-.container-2{
-    box-shadow: whitesmoke;
-    margin-left: 10px;
-}
-.container-3{
-    box-shadow: whitesmoke;
-    margin-left: 30px;
-}
-.container-4{
-    box-shadow: whitesmoke;
-    margin-left: 30px;
-}
-.container-5{
-    box-shadow: whitesmoke;
-    margin-left: 30px;
-}
-.container-6{
-    box-shadow: whitesmoke;
-    margin-left: 30px;
-}
-.container-7{
-    box-shadow: whitesmoke;
-    margin-left: 30px;
-}
-.container-8{
-    box-shadow: whitesmoke;
-    margin-left: 30px;
-}
-.container-9{
-    box-shadow: whitesmoke;
-    margin-left: 30px;
+
+.see-more{
+    color:red;
+    float: right;
+    margin-right: 50px;
+    margin-top: 5px;
 }
 
+/* ..........self-content................ */
+    
 
+.self-container{
+    width: 580px;
+    height: 420px;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+.self-class{
+    margin-top: 100px;
+    margin-right: 0;
+    margin-left: 30px;
+}
+.self-content{
+    background-color: #E02C6D;
+    color:whitesmoke;
+
+}
+.content{
+    box-shadow: inset 0 -3em 3em rgb(255 255 255), 0 0 0 2px rgb(245 242 242), 0.3em 0.3em 1em rgb(135 131 131 / 30%);
+margin-left: 30px;
+    margin-right: 10px;
+}
 
 
 
@@ -102,6 +115,7 @@ h4{
 footer{
     text-align: center;
     background-color: rgba(4, 0, 255, 0.61);
+    margin-top: 50px;
 }
 a{
     background-color: paleturquoise;
