@@ -86,7 +86,19 @@ margin-left: 30px;
 
 /* ..........self-content................ */
     
-
+/* table */
+table, th, td {
+    border:1px solid black;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .info{
+      text-align: center;
+      font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+  }
 .self-container{
     width: 580px;
     height: 420px;
